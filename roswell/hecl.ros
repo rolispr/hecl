@@ -1,0 +1,14 @@
+#!/bin/sh
+#|-*- mode:lisp -*-|#
+#|
+exec ros -Q -- $0 "$@"
+|#
+
+(push (make-pathname :directory (butlast (pathname-directory *load-truename*)))
+      asdf:*central-registry*)
+
+(asdf:load-system :hecl)
+
+(defun main (&rest argv)
+  (declare (ignore argv))
+  (hecl:main))
