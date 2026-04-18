@@ -1,7 +1,7 @@
-(defpackage #:hecl/tests
-  (:use #:cl #:fiveam #:hecl))
+(defpackage :hecl/tests
+  (:use :cl :fiveam))
 
-(in-package #:hecl/tests)
+(in-package :hecl/tests)
 
 (def-suite :hecl)
 (in-suite :hecl)

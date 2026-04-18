@@ -1,3 +1,11 @@
 *~
 .#*
-ocicl
+ocicl/
+build/
+*.fas
+*.o
+*.a
+*.dylib
+*.so
+.gail-labels
+README.md

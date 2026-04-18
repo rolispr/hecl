@@ -1,0 +1,2 @@
+0
+66 604731177 1775770839518281415 c22c1412681ca91db92dfa9c569f0a06 0 /Users/bret.horne/common-lisp/hecl/lib/vendor/ghostty/pkg/utfcpp/empty.cc

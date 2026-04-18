@@ -1,0 +1,15 @@
+.{
+    .fingerprint = 0x77bd403ea7bccb89,
+    .name = .hecl_gterm,
+    .version = "0.1.0",
+    .dependencies = .{
+        .ghostty = .{
+            .path = "vendor/ghostty",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "hecl_gterm.zig",
+    },
+}
